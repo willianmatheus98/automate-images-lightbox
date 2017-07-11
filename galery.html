@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>Visualization of automate images</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body>
+
+  <!--DIV galery-->
+  <div id="galery" class="container">
+    <h2 class="titulo" >Galery</h2>
+    <div class="row" id="content">
+      <!--HERE COMES THE IMAGES-->
+    </div>
+  </div>
+  <!--END DIV galery-->
+
+</body>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox-page.js"></script>
+<script type="text/javascript" src="js/automate-images.js"></script>
+
+<script type="text/javascript">
+  automate_images('galery', 'images', 4); // (FOLDER, ARCHIVE, LIMIT)
+</script>
+
+</html>
